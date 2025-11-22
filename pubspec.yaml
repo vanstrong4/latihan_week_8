@@ -19,11 +19,9 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-<<<<<<< HEAD
-  sdk: ^3.10.0
-=======
   sdk: ^3.9.2
->>>>>>> cdf5828d87b8bb7bcb48f99c2a66f0f3f93d2765
+  
+
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -48,22 +46,16 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-<<<<<<< HEAD
-  flutter_lints: ^6.0.0
-=======
   flutter_lints: ^5.0.0
->>>>>>> cdf5828d87b8bb7bcb48f99c2a66f0f3f93d2765
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-<<<<<<< HEAD
   assets:
     - assets/images/roblox.png
-=======
->>>>>>> cdf5828d87b8bb7bcb48f99c2a66f0f3f93d2765
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

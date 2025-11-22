@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
 
-<<<<<<< HEAD
 void main() {
   runApp(const MyVan());
 }
-
-=======
->>>>>>> cdf5828d87b8bb7bcb48f99c2a66f0f3f93d2765
 class MyVan extends StatelessWidget {
   const MyVan({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-<<<<<<< HEAD
       appBar: AppBar(
         title: const Text("Dashboard Card"),
         // centerTitle: true,
@@ -151,21 +146,3 @@ class MyVan extends StatelessWidget {
     );
   }
 }
-=======
-            appBar: AppBar(
-              title: const Text("Dashboard Card"),
-              actions: const [],
-            ),
-            body: SingleChildScrollView(
-              child: Container(
-                padding: const EdgeInsets.all(20.0),
-                child: Column(
-                  children: [
-                  ],
-                ),
-              ),
-            ),
-          );
-  }
-}
->>>>>>> cdf5828d87b8bb7bcb48f99c2a66f0f3f93d2765
