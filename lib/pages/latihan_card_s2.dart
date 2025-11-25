@@ -201,6 +201,7 @@ class MyVan extends StatelessWidget {
                         ),
                       ),
                     ),
+                    SizedBox(height: 10),
                     Card(
                       elevation: 8,
                       shadowColor: Colors.amber,
@@ -225,6 +226,13 @@ class MyVan extends StatelessWidget {
                                     color: Colors.white,
                                     width: 4.0,
                                   ),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black.withValues(alpha:0.2),
+                                      blurRadius: 10,
+                                      offset: Offset(0, 4),
+                                    ),
+                                  ]
                                 ),
                               )
                             ],
