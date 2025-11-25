@@ -201,6 +201,26 @@ class MyVan extends StatelessWidget {
                         ),
                       ),
                     ),
+                    Card(
+                      elevation: 8,
+                      shadowColor: Colors.amber,
+                      clipBehavior: Clip.antiAlias,
+                      child: Container(
+                        decoration: const BoxDecoration(
+                          gradient: LinearGradient(
+                            colors: [Colors.amber, Colors.orange],
+                            begin: Alignment.topRight,
+                            end: Alignment.bottomLeft,
+                          ),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(20),
+                          child: Column(
+                            
+                          ),
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ),
