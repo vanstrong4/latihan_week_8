@@ -216,7 +216,18 @@ class MyVan extends StatelessWidget {
                         child: Padding(
                           padding: const EdgeInsets.all(20),
                           child: Column(
-                            
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: Border.all(
+                                    color: Colors.white,
+                                    width: 4.0,
+                                  ),
+                                ),
+                              )
+                            ],
                           ),
                         ),
                       ),
