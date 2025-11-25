@@ -204,20 +204,21 @@ class MyVan extends StatelessWidget {
                     SizedBox(height: 10),
                     Card(
                       elevation: 8,
-                      shadowColor: Colors.amber,
+                      shadowColor: Colors.amberAccent,
                       clipBehavior: Clip.antiAlias,
                       child: Container(
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
-                            colors: [Colors.amber, Colors.orange],
+                            colors: [Color.fromARGB(255, 19, 140, 177), Colors.blue],
                             begin: Alignment.topRight,
                             end: Alignment.bottomLeft,
                           ),
                         ),
+                        
                         child: Padding(
                           padding: const EdgeInsets.all(20),
                           child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Container(
                                 decoration: BoxDecoration(
