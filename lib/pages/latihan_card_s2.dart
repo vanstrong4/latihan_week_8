@@ -90,7 +90,7 @@ class MyVan extends StatelessWidget {
                                 ),
                                 child: CircleAvatar(
                                   radius: 60,
-                                  backgroundImage: AssetImage("assets/images/roblox.png"),
+                                  backgroundImage: AssetImage("assets/images/van.jpg"),
                                 ),
                               ),
                               SizedBox(height: 5),
@@ -235,7 +235,7 @@ class MyVan extends StatelessWidget {
                               SizedBox(height: 20),
                               Padding(
                                 padding:EdgeInsets.symmetric(horizontal: 20),
-                                child: Text('0406 0504 0605 0406',
+                                child: Text('0406    0504    0605    0406',
                                   textAlign: TextAlign.start,
                                   style: TextStyle(
                                     fontSize: 20,
@@ -320,7 +320,7 @@ class MyVan extends StatelessWidget {
                                         ),
                                       ],
                                     ),
-                                    SizedBox(width: 10),
+                                    SizedBox(width: 20),
                                     Text('MasterCard',
                                       style: TextStyle(
                                         color: Colors.white,
@@ -335,7 +335,7 @@ class MyVan extends StatelessWidget {
                           ),
                         ],
                       )
-                    )
+                    ),
                   ],
                 ),
               ),
