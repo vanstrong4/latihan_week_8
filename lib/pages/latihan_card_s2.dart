@@ -244,9 +244,46 @@ class MyVan extends StatelessWidget {
                                   )
                                 )
                               ),
+                              SizedBox(height: 20),
+                              Padding(
+                                padding:EdgeInsets.symmetric(horizontal: 17),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text('Evan Alfeus Hendri',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold
+                                      )
+                                    ),
+                                    Stack(
+                                    children:[
+                                      Container(
+                                        width: 27,
+                                        height: 27,
+                                        decoration: const BoxDecoration(
+                                          color: Color(0xFFEB001B),
+                                          shape: BoxShape.circle,
+                                        ),
+                                      ),
+                                      Container(
+                                        margin:EdgeInsets.only(left: 15),
+                                        width: 27,
+                                        height: 27,
+                                        decoration: BoxDecoration(
+                                          color: Color(0xFFF79E1B),
+                                          shape: BoxShape.circle,
+                                        ),
+                                      )
+                                    ],
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                           ),
+
                         ],
                       )
                     )
