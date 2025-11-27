@@ -57,6 +57,8 @@ class MyVan extends StatelessWidget {
                       //contoh memotong gradient melengkung
                       clipBehavior: Clip.antiAlias,
                       child: Container(
+                        height: 350,
+                        width: 500,
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
                             colors: [Colors.black, Colors.blue],
@@ -202,44 +204,38 @@ class MyVan extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: 10),
+                    
                     Card(
-                      elevation: 8,
-                      shadowColor: Colors.amberAccent,
-                      clipBehavior: Clip.antiAlias,
-                      child: Container(
-                        decoration: const BoxDecoration(
-                          gradient: LinearGradient(
-                            colors: [Color.fromARGB(255, 19, 140, 177), Colors.blue],
-                            begin: Alignment.topRight,
-                            end: Alignment.bottomLeft,
+                      elevation:20,
+                      child: Column(
+                        children: [
+                          Container(
+                            height:200,
+                            width: 500,
+                            decoration: BoxDecoration(
+                              color: const Color.fromARGB(255, 81, 161, 226),
+                              borderRadius: BorderRadius.circular(20),
                           ),
-                        ),
-                        
-                        child: Padding(
-                          padding: const EdgeInsets.all(20),
                           child: Column(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Container(
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  border: Border.all(
-                                    color: Colors.white,
-                                    width: 4.0,
-                                  ),
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: Colors.black.withValues(alpha:0.2),
-                                      blurRadius: 10,
-                                      offset: Offset(0, 4),
-                                    ),
-                                  ]
-                                ),
-                              )
+                              Padding(
+                                padding: const EdgeInsets.all(12.0),
+                                child: Align(
+                                  alignment: Alignment.topCenter,
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Icon(Icons.credit_card, color: Colors.white70, size: 32),
+                                    ]
+                                  )
+                                )
+                              ),
                             ],
                           ),
-                        ),
-                      ),
+                          ),
+                        ],
+                      )
                     )
                   ],
                 ),
