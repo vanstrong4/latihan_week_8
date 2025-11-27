@@ -234,7 +234,7 @@ class MyVan extends StatelessWidget {
                               ),
                               SizedBox(height: 20),
                               Padding(
-                                padding:EdgeInsets.symmetric(horizontal: 30),
+                                padding:EdgeInsets.symmetric(horizontal: 20),
                                 child: Text('0406 0504 0605 0406',
                                   textAlign: TextAlign.start,
                                   style: TextStyle(
@@ -246,7 +246,7 @@ class MyVan extends StatelessWidget {
                               ),
                               SizedBox(height: 20),
                               Padding(
-                                padding:EdgeInsets.symmetric(horizontal: 17),
+                                padding:EdgeInsets.symmetric(horizontal: 19),
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
@@ -275,15 +275,64 @@ class MyVan extends StatelessWidget {
                                           shape: BoxShape.circle,
                                         ),
                                       )
-                                    ],
+                                     ],
                                     ),
                                   ],
                                 ),
                               ),
+                              SizedBox(height: 10),
+                              Padding(
+                                padding:EdgeInsetsGeometry.symmetric(horizontal: 19),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text('Expiry Date',
+                                          style: TextStyle(
+                                            color: Colors.white70,
+                                            fontSize: 10
+                                          ),
+                                        ),
+                                        Text('04/2005',
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text('CVV',
+                                          style: TextStyle(
+                                            color: Colors.white70,
+                                            fontSize: 10
+                                          ),
+                                        ),
+                                        Text('0406',
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    SizedBox(width: 10),
+                                    Text('MasterCard',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
+                                )
+                              ),
                             ],
                           ),
                           ),
-
                         ],
                       )
                     )
