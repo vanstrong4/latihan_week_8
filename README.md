@@ -1,4 +1,5 @@
 # latihan_week_8
+<img width="411" height="904" alt="Screenshot 2025-11-27 235458" src="https://github.com/user-attachments/assets/fefd133e-a991-46e1-a511-a5ccb176d903" />
 
 A new Flutter project.
 
