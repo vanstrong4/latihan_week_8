@@ -210,8 +210,8 @@ class MyVan extends StatelessWidget {
                       child: Column(
                         children: [
                           Container(
-                            height:200,
-                            width: 500,
+                            height:230,
+                            width: 450,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(255, 81, 161, 226),
                               borderRadius: BorderRadius.circular(20),
@@ -227,6 +227,7 @@ class MyVan extends StatelessWidget {
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       Icon(Icons.credit_card, color: Colors.white70, size: 32),
+                                      Icon(Icons.contactless, color: Colors.white70, size: 32),
                                     ]
                                   )
                                 )
