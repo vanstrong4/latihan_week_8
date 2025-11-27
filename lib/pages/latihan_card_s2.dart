@@ -210,8 +210,8 @@ class MyVan extends StatelessWidget {
                       child: Column(
                         children: [
                           Container(
-                            height:230,
-                            width: 450,
+                            height:220,
+                            width: 355,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(255, 81, 161, 226),
                               borderRadius: BorderRadius.circular(20),
@@ -229,6 +229,18 @@ class MyVan extends StatelessWidget {
                                       Icon(Icons.credit_card, color: Colors.white70, size: 32),
                                       Icon(Icons.contactless, color: Colors.white70, size: 32),
                                     ]
+                                  )
+                                )
+                              ),
+                              SizedBox(height: 20),
+                              Padding(
+                                padding:EdgeInsets.symmetric(horizontal: 30),
+                                child: Text('0406 0504 0605 0406',
+                                  textAlign: TextAlign.start,
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold
                                   )
                                 )
                               ),
